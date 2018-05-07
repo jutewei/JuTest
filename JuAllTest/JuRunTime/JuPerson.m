@@ -6,10 +6,10 @@
 //  Copyright © 2018年 Juvid. All rights reserved.
 //
 
-#import "Person.h"
+#import "JuPerson.h"
 #import <objc/runtime.h>
 
-@implementation Person
+@implementation JuPerson
 @synthesize name = _name;
 @synthesize age = _age;
 
@@ -49,10 +49,8 @@ void dynamicAdditionMethodIMP(id self, SEL _cmd, id name) {
     if (aSelector == @selector(appendString:)) {
         return [NSMutableString string];
     }
-    return nil;
+    return [super forwardingTargetForSelector:aSelector];
 }
-
-
 
 //3 消息转发: Normal Forwarding
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector{
