@@ -7,8 +7,10 @@
 //
 
 #import "NextViewController.h"
-
-@interface NextViewController ()
+#import "JuObject+Cate.h"
+@interface NextViewController (){
+    JuObject *subLod;
+}
 
 @end
 
@@ -16,6 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor whiteColor];
+
+    subLod=[[JuObject alloc]init];
+    subLod.sh_subLoda=[[JuSubSubLoad alloc]init];
     // Do any additional setup after loading the view.
 }
 

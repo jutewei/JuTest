@@ -19,11 +19,17 @@
     if (self) {
         id p = [[Person alloc] init];
         [p appendString:@"哈哈哈哈"];
+        [p addObject:@"呵呵呵呵"];
+        [p hasPrefix:@"ju"];
+        [p juTest];
 
-        JuSubLoad *load =[[JuSubLoad alloc]init];
-        JuSubSubLoad *load1 =[[JuSubSubLoad alloc]init];
+
     }
     return self;
+}
+-(void)juStart{
+    JuSubLoad *load =[[JuSubLoad alloc]init];
+    JuSubSubLoad *load1 =[[JuSubSubLoad alloc]init];
 }
 - (id)forwardingTargetForSelector:(SEL)aSelector
 {

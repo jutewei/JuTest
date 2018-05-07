@@ -9,5 +9,10 @@
 #import "JuLoad.h"
 
 @implementation JuLoad
-
++(void)load{
+    NSLog(@"JuLoad _cmd: %@", NSStringFromSelector(_cmd));
+}
++ (void)initialize{
+    NSLog(@"JuLoad _cmd: %@", NSStringFromSelector(_cmd));
+}
 @end

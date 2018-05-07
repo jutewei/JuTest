@@ -10,6 +10,8 @@
 		EB25B55720A0366700FFC15B /* JuLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55420A0366700FFC15B /* JuLoad.m */; };
 		EB25B55820A0366700FFC15B /* JuSubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55520A0366700FFC15B /* JuSubLoad.m */; };
 		EB25B55920A0366700FFC15B /* JuSubSubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55620A0366700FFC15B /* JuSubSubLoad.m */; };
+		EB25B55C20A03BED00FFC15B /* JuObject+Cate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55B20A03BED00FFC15B /* JuObject+Cate.m */; };
+		EB25B55F20A03D2400FFC15B /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55E20A03D2400FFC15B /* NextViewController.m */; };
 		EBD95231209FEB5A0071876F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95230209FEB5A0071876F /* AppDelegate.m */; };
 		EBD95234209FEB5A0071876F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95233209FEB5A0071876F /* ViewController.m */; };
 		EBD95237209FEB5A0071876F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD95235209FEB5A0071876F /* Main.storyboard */; };
@@ -37,6 +39,10 @@
 		EB25B55420A0366700FFC15B /* JuLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuLoad.m; sourceTree = "<group>"; };
 		EB25B55520A0366700FFC15B /* JuSubLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuSubLoad.m; sourceTree = "<group>"; };
 		EB25B55620A0366700FFC15B /* JuSubSubLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuSubSubLoad.m; sourceTree = "<group>"; };
+		EB25B55A20A03BED00FFC15B /* JuObject+Cate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuObject+Cate.h"; sourceTree = "<group>"; };
+		EB25B55B20A03BED00FFC15B /* JuObject+Cate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JuObject+Cate.m"; sourceTree = "<group>"; };
+		EB25B55D20A03D2400FFC15B /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		EB25B55E20A03D2400FFC15B /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		EBD9522C209FEB5A0071876F /* JuAllTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuAllTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD9522F209FEB5A0071876F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBD95230209FEB5A0071876F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +131,8 @@
 				EBD95230209FEB5A0071876F /* AppDelegate.m */,
 				EBD95232209FEB5A0071876F /* ViewController.h */,
 				EBD95233209FEB5A0071876F /* ViewController.m */,
+				EB25B55D20A03D2400FFC15B /* NextViewController.h */,
+				EB25B55E20A03D2400FFC15B /* NextViewController.m */,
 				EBD95235209FEB5A0071876F /* Main.storyboard */,
 				EBD95238209FEB5C0071876F /* Assets.xcassets */,
 				EBD9523A209FEB5C0071876F /* LaunchScreen.storyboard */,
@@ -175,6 +183,8 @@
 				EB25B55020A0366700FFC15B /* JuLoad */,
 				EBD95262209FF1C70071876F /* JuObject.h */,
 				EBD95260209FF1C70071876F /* JuObject.m */,
+				EB25B55A20A03BED00FFC15B /* JuObject+Cate.h */,
+				EB25B55B20A03BED00FFC15B /* JuObject+Cate.m */,
 				EBD95265209FF1C70071876F /* NoneClass.h */,
 				EBD95261209FF1C70071876F /* NoneClass.m */,
 				EBD95263209FF1C70071876F /* Person.h */,
@@ -269,10 +279,12 @@
 				EB25B55720A0366700FFC15B /* JuLoad.m in Sources */,
 				EBD95234209FEB5A0071876F /* ViewController.m in Sources */,
 				EBD9526F209FF2D50071876F /* JuEncryption.m in Sources */,
+				EB25B55F20A03D2400FFC15B /* NextViewController.m in Sources */,
 				EBD95259209FEFE10071876F /* JuTimerLoop.m in Sources */,
 				EB25B55920A0366700FFC15B /* JuSubSubLoad.m in Sources */,
 				EBD95266209FF1C70071876F /* JuObject.m in Sources */,
 				EBD9523F209FEB5C0071876F /* main.m in Sources */,
+				EB25B55C20A03BED00FFC15B /* JuObject+Cate.m in Sources */,
 				EBD9525F209FF19A0071876F /* JuCountDown.m in Sources */,
 				EBD9525C209FF0E50071876F /* JuBlock.m in Sources */,
 				EBD95256209FEF260071876F /* JuThread.m in Sources */,

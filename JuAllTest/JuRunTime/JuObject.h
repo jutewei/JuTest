@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface JuObject : NSObject
+-(void)juStart;
 -(void) nonClassMethod:(NSString *)str;
 @end

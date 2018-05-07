@@ -7,7 +7,8 @@
 //
 
 #import "JuObject.h"
+#import "JuSubSubLoad.h"
 
 @interface JuObject (Cate)
-
+@property(nonatomic,strong)JuSubSubLoad *sh_subLoda;
 @end

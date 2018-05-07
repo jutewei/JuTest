@@ -10,6 +10,7 @@
 #import "JuObject.h"
 #import "JuThread.h"
 #import "JuRunLoop.h"
+#import "NextViewController.h"
 @interface ViewController ()
 @property (nonatomic,strong)JuRunLoop *ju_loop;
 @end
@@ -31,7 +32,12 @@
 }
 -(void)juRunTimeMsg{
     JuObject *myTestObject=[[JuObject alloc]init];
+    [myTestObject juStart];
     [myTestObject nonClassMethod:@"你好呀"];
+}
+- (IBAction)juNext:(id)sender {
+    NextViewController *next=[[NextViewController alloc]init];
+    [self.navigationController pushViewController:next animated:YES];
 }
 -(void)juThread{
     JuGCD *gcd=[[JuGCD alloc]init];

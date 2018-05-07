@@ -11,5 +11,6 @@
 @interface Person : NSObject
 @property (nonatomic, copy) NSString* name;
 @property (nonatomic, assign) NSUInteger age;
+-(void)juTest;
 //- (void)appendString:(NSString *)word;
 @end
