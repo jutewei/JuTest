@@ -13,6 +13,18 @@
 		EBD95239209FEB5C0071876F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD95238209FEB5C0071876F /* Assets.xcassets */; };
 		EBD9523C209FEB5C0071876F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD9523A209FEB5C0071876F /* LaunchScreen.storyboard */; };
 		EBD9523F209FEB5C0071876F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9523E209FEB5C0071876F /* main.m */; };
+		EBD9524D209FEDDD0071876F /* JuOpetation.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9524B209FEDDD0071876F /* JuOpetation.m */; };
+		EBD9524E209FEDDD0071876F /* JuGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9524C209FEDDD0071876F /* JuGCD.m */; };
+		EBD95253209FEF100071876F /* JuRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95252209FEF100071876F /* JuRunLoop.m */; };
+		EBD95256209FEF260071876F /* HLThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95255209FEF260071876F /* HLThread.m */; };
+		EBD95259209FEFE10071876F /* JuTimerLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95258209FEFE10071876F /* JuTimerLoop.m */; };
+		EBD9525C209FF0E50071876F /* JuBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9525B209FF0E50071876F /* JuBlock.m */; };
+		EBD9525F209FF19A0071876F /* JuCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9525D209FF19A0071876F /* JuCountDown.m */; };
+		EBD95266209FF1C70071876F /* JuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95260209FF1C70071876F /* JuObject.m */; };
+		EBD95267209FF1C70071876F /* NoneClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95261209FF1C70071876F /* NoneClass.m */; };
+		EBD95268209FF1C70071876F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95264209FF1C70071876F /* Person.m */; };
+		EBD9526C209FF2430071876F /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9526A209FF2430071876F /* NSData+AES.m */; };
+		EBD9526F209FF2D50071876F /* JuEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9526E209FF2D50071876F /* JuEncryption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,30 @@
 		EBD9523B209FEB5C0071876F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBD9523D209FEB5C0071876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBD9523E209FEB5C0071876F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBD95249209FEDDD0071876F /* JuGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuGCD.h; sourceTree = "<group>"; };
+		EBD9524A209FEDDD0071876F /* JuOpetation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuOpetation.h; sourceTree = "<group>"; };
+		EBD9524B209FEDDD0071876F /* JuOpetation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuOpetation.m; sourceTree = "<group>"; };
+		EBD9524C209FEDDD0071876F /* JuGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuGCD.m; sourceTree = "<group>"; };
+		EBD95251209FEF100071876F /* JuRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuRunLoop.h; sourceTree = "<group>"; };
+		EBD95252209FEF100071876F /* JuRunLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuRunLoop.m; sourceTree = "<group>"; };
+		EBD95254209FEF260071876F /* HLThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLThread.h; sourceTree = "<group>"; };
+		EBD95255209FEF260071876F /* HLThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLThread.m; sourceTree = "<group>"; };
+		EBD95257209FEFE10071876F /* JuTimerLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuTimerLoop.h; sourceTree = "<group>"; };
+		EBD95258209FEFE10071876F /* JuTimerLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuTimerLoop.m; sourceTree = "<group>"; };
+		EBD9525A209FF0E50071876F /* JuBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuBlock.h; sourceTree = "<group>"; };
+		EBD9525B209FF0E50071876F /* JuBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuBlock.m; sourceTree = "<group>"; };
+		EBD9525D209FF19A0071876F /* JuCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuCountDown.m; sourceTree = "<group>"; };
+		EBD9525E209FF19A0071876F /* JuCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuCountDown.h; sourceTree = "<group>"; };
+		EBD95260209FF1C70071876F /* JuObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuObject.m; sourceTree = "<group>"; };
+		EBD95261209FF1C70071876F /* NoneClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoneClass.m; sourceTree = "<group>"; };
+		EBD95262209FF1C70071876F /* JuObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuObject.h; sourceTree = "<group>"; };
+		EBD95263209FF1C70071876F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EBD95264209FF1C70071876F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EBD95265209FF1C70071876F /* NoneClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoneClass.h; sourceTree = "<group>"; };
+		EBD9526A209FF2430071876F /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		EBD9526B209FF2430071876F /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		EBD9526D209FF2D50071876F /* JuEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuEncryption.h; sourceTree = "<group>"; };
+		EBD9526E209FF2D50071876F /* JuEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuEncryption.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,11 @@
 		EBD9522E209FEB5A0071876F /* JuAllTest */ = {
 			isa = PBXGroup;
 			children = (
+				EBD95269209FF23B0071876F /* JuEncryption */,
+				EBD95245209FEBD80071876F /* JuBlock */,
+				EBD95246209FEBD80071876F /* JuRunLoop */,
+				EBD95248209FEBD90071876F /* JuRunTime */,
+				EBD95247209FEBD90071876F /* JuThread */,
 				EBD9522F209FEB5A0071876F /* AppDelegate.h */,
 				EBD95230209FEB5A0071876F /* AppDelegate.m */,
 				EBD95232209FEB5A0071876F /* ViewController.h */,
@@ -69,6 +110,65 @@
 				EBD9523E209FEB5C0071876F /* main.m */,
 			);
 			path = JuAllTest;
+			sourceTree = "<group>";
+		};
+		EBD95245209FEBD80071876F /* JuBlock */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9525A209FF0E50071876F /* JuBlock.h */,
+				EBD9525B209FF0E50071876F /* JuBlock.m */,
+			);
+			path = JuBlock;
+			sourceTree = "<group>";
+		};
+		EBD95246209FEBD80071876F /* JuRunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				EBD95251209FEF100071876F /* JuRunLoop.h */,
+				EBD95252209FEF100071876F /* JuRunLoop.m */,
+				EBD95257209FEFE10071876F /* JuTimerLoop.h */,
+				EBD95258209FEFE10071876F /* JuTimerLoop.m */,
+				EBD9525E209FF19A0071876F /* JuCountDown.h */,
+				EBD9525D209FF19A0071876F /* JuCountDown.m */,
+			);
+			path = JuRunLoop;
+			sourceTree = "<group>";
+		};
+		EBD95247209FEBD90071876F /* JuThread */ = {
+			isa = PBXGroup;
+			children = (
+				EBD95254209FEF260071876F /* HLThread.h */,
+				EBD95255209FEF260071876F /* HLThread.m */,
+				EBD95249209FEDDD0071876F /* JuGCD.h */,
+				EBD9524C209FEDDD0071876F /* JuGCD.m */,
+				EBD9524A209FEDDD0071876F /* JuOpetation.h */,
+				EBD9524B209FEDDD0071876F /* JuOpetation.m */,
+			);
+			path = JuThread;
+			sourceTree = "<group>";
+		};
+		EBD95248209FEBD90071876F /* JuRunTime */ = {
+			isa = PBXGroup;
+			children = (
+				EBD95262209FF1C70071876F /* JuObject.h */,
+				EBD95260209FF1C70071876F /* JuObject.m */,
+				EBD95265209FF1C70071876F /* NoneClass.h */,
+				EBD95261209FF1C70071876F /* NoneClass.m */,
+				EBD95263209FF1C70071876F /* Person.h */,
+				EBD95264209FF1C70071876F /* Person.m */,
+			);
+			path = JuRunTime;
+			sourceTree = "<group>";
+		};
+		EBD95269209FF23B0071876F /* JuEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9526B209FF2430071876F /* NSData+AES.h */,
+				EBD9526A209FF2430071876F /* NSData+AES.m */,
+				EBD9526D209FF2D50071876F /* JuEncryption.h */,
+				EBD9526E209FF2D50071876F /* JuEncryption.m */,
+			);
+			path = JuEncryption;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +241,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD9526C209FF2430071876F /* NSData+AES.m in Sources */,
+				EBD9524E209FEDDD0071876F /* JuGCD.m in Sources */,
 				EBD95234209FEB5A0071876F /* ViewController.m in Sources */,
+				EBD9526F209FF2D50071876F /* JuEncryption.m in Sources */,
+				EBD95259209FEFE10071876F /* JuTimerLoop.m in Sources */,
+				EBD95266209FF1C70071876F /* JuObject.m in Sources */,
 				EBD9523F209FEB5C0071876F /* main.m in Sources */,
+				EBD9525F209FF19A0071876F /* JuCountDown.m in Sources */,
+				EBD9525C209FF0E50071876F /* JuBlock.m in Sources */,
+				EBD95256209FEF260071876F /* HLThread.m in Sources */,
+				EBD95267209FF1C70071876F /* NoneClass.m in Sources */,
+				EBD95268209FF1C70071876F /* Person.m in Sources */,
+				EBD9524D209FEDDD0071876F /* JuOpetation.m in Sources */,
+				EBD95253209FEF100071876F /* JuRunLoop.m in Sources */,
 				EBD95231209FEB5A0071876F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
