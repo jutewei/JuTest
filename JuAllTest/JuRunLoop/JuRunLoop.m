@@ -7,10 +7,10 @@
 //
 
 #import "JuRunLoop.h"
-#import "HLThread.h"
+#import "JuThread.h"
 
 @interface JuRunLoop ()
-@property (nonatomic,strong)HLThread *subThread;
+@property (nonatomic,strong)JuThread *subThread;
 @end
 
 @implementation JuRunLoop
@@ -28,7 +28,7 @@
 }
 - (void)threadTest{
 
-    HLThread *subThread = [[HLThread alloc] initWithTarget:self selector:@selector(subThreadEntryPoint) object:nil];
+    JuThread *subThread = [[JuThread alloc] initWithTarget:self selector:@selector(subThreadEntryPoint) object:nil];
     [subThread setName:@"HLThread"];
     [subThread start];
     self.subThread = subThread;

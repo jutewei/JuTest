@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface HLThread : NSThread
+#import "JuGCD.h"
+#import "JuOpetation.h"
+@interface JuThread : NSThread
 
 @end

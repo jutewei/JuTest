@@ -8,8 +8,17 @@
 
 #import "JuObject.h"
 #import "NoneClass.h"
-
+#import "Person.h"
 @implementation JuObject
+
+-(instancetype)init{
+    self =[super init];
+    if (self) {
+        id p = [[Person alloc] init];
+        [p appendString:@"哈哈哈哈"];
+    }
+    return self;
+}
 - (id)forwardingTargetForSelector:(SEL)aSelector
 {
     NSLog(@"MyTestObject _cmd: %@", NSStringFromSelector(_cmd));
@@ -21,4 +30,5 @@
 
     return [super forwardingTargetForSelector: aSelector];
 }
+
 @end

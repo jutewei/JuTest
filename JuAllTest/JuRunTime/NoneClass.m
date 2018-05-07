@@ -11,13 +11,13 @@
 @implementation NoneClass
 +(void)load
 {
-    NSLog(@"NoneClass _cmd: %@", NSStringFromSelector(_cmd));
+    NSLog(@"NoneClass1 _cmd: %@", NSStringFromSelector(_cmd));
 }
 + (void)initialize{
-    NSLog(@"NoneClass _cmd: %@", NSStringFromSelector(_cmd));
+    NSLog(@"NoneClass2 _cmd: %@", NSStringFromSelector(_cmd));
 }
 -(void) nonClassMethod:(NSString *)str
 {
-    NSLog(@"_cmd: %@", NSStringFromSelector(_cmd));
+    NSLog(@"NoneClass3 _cmd: %@", NSStringFromSelector(_cmd));
 }
 @end

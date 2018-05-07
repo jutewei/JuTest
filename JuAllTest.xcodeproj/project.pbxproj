@@ -16,7 +16,7 @@
 		EBD9524D209FEDDD0071876F /* JuOpetation.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9524B209FEDDD0071876F /* JuOpetation.m */; };
 		EBD9524E209FEDDD0071876F /* JuGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9524C209FEDDD0071876F /* JuGCD.m */; };
 		EBD95253209FEF100071876F /* JuRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95252209FEF100071876F /* JuRunLoop.m */; };
-		EBD95256209FEF260071876F /* HLThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95255209FEF260071876F /* HLThread.m */; };
+		EBD95256209FEF260071876F /* JuThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95255209FEF260071876F /* JuThread.m */; };
 		EBD95259209FEFE10071876F /* JuTimerLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95258209FEFE10071876F /* JuTimerLoop.m */; };
 		EBD9525C209FF0E50071876F /* JuBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9525B209FF0E50071876F /* JuBlock.m */; };
 		EBD9525F209FF19A0071876F /* JuCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9525D209FF19A0071876F /* JuCountDown.m */; };
@@ -44,8 +44,8 @@
 		EBD9524C209FEDDD0071876F /* JuGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuGCD.m; sourceTree = "<group>"; };
 		EBD95251209FEF100071876F /* JuRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuRunLoop.h; sourceTree = "<group>"; };
 		EBD95252209FEF100071876F /* JuRunLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuRunLoop.m; sourceTree = "<group>"; };
-		EBD95254209FEF260071876F /* HLThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLThread.h; sourceTree = "<group>"; };
-		EBD95255209FEF260071876F /* HLThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLThread.m; sourceTree = "<group>"; };
+		EBD95254209FEF260071876F /* JuThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuThread.h; sourceTree = "<group>"; };
+		EBD95255209FEF260071876F /* JuThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuThread.m; sourceTree = "<group>"; };
 		EBD95257209FEFE10071876F /* JuTimerLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuTimerLoop.h; sourceTree = "<group>"; };
 		EBD95258209FEFE10071876F /* JuTimerLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuTimerLoop.m; sourceTree = "<group>"; };
 		EBD9525A209FF0E50071876F /* JuBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuBlock.h; sourceTree = "<group>"; };
@@ -137,8 +137,8 @@
 		EBD95247209FEBD90071876F /* JuThread */ = {
 			isa = PBXGroup;
 			children = (
-				EBD95254209FEF260071876F /* HLThread.h */,
-				EBD95255209FEF260071876F /* HLThread.m */,
+				EBD95254209FEF260071876F /* JuThread.h */,
+				EBD95255209FEF260071876F /* JuThread.m */,
 				EBD95249209FEDDD0071876F /* JuGCD.h */,
 				EBD9524C209FEDDD0071876F /* JuGCD.m */,
 				EBD9524A209FEDDD0071876F /* JuOpetation.h */,
@@ -250,7 +250,7 @@
 				EBD9523F209FEB5C0071876F /* main.m in Sources */,
 				EBD9525F209FF19A0071876F /* JuCountDown.m in Sources */,
 				EBD9525C209FF0E50071876F /* JuBlock.m in Sources */,
-				EBD95256209FEF260071876F /* HLThread.m in Sources */,
+				EBD95256209FEF260071876F /* JuThread.m in Sources */,
 				EBD95267209FF1C70071876F /* NoneClass.m in Sources */,
 				EBD95268209FF1C70071876F /* Person.m in Sources */,
 				EBD9524D209FEDDD0071876F /* JuOpetation.m in Sources */,

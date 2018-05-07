@@ -6,9 +6,9 @@
 //  Copyright © 2018年 Juvid. All rights reserved.
 //
 
-#import "HLThread.h"
+#import "JuThread.h"
 
-@implementation HLThread
+@implementation JuThread
 - (void)dealloc
 {
     NSLog(@"%s",__func__);
