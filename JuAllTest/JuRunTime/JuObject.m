@@ -8,7 +8,7 @@
 
 #import "JuObject.h"
 #import "NoneClass.h"
-#import "Person.h"
+#import "JuPerson.h"
 #import "JuSubSubLoad.h"
 #import "JuSubLoad.h"
 
@@ -17,7 +17,7 @@
 -(instancetype)init{
     self =[super init];
     if (self) {
-        id p = [[Person alloc] init];
+        id p = [[JuPerson alloc] init];
         [p appendString:@"哈哈哈哈"];
         [p addObject:@"呵呵呵呵"];
         [p hasPrefix:@"ju"];

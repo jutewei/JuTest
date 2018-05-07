@@ -27,7 +27,7 @@
 		EBD9525F209FF19A0071876F /* JuCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9525D209FF19A0071876F /* JuCountDown.m */; };
 		EBD95266209FF1C70071876F /* JuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95260209FF1C70071876F /* JuObject.m */; };
 		EBD95267209FF1C70071876F /* NoneClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95261209FF1C70071876F /* NoneClass.m */; };
-		EBD95268209FF1C70071876F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95264209FF1C70071876F /* Person.m */; };
+		EBD95268209FF1C70071876F /* JuPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95264209FF1C70071876F /* JuPerson.m */; };
 		EBD9526C209FF2430071876F /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9526A209FF2430071876F /* NSData+AES.m */; };
 		EBD9526F209FF2D50071876F /* JuEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9526E209FF2D50071876F /* JuEncryption.m */; };
 /* End PBXBuildFile section */
@@ -70,8 +70,8 @@
 		EBD95260209FF1C70071876F /* JuObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuObject.m; sourceTree = "<group>"; };
 		EBD95261209FF1C70071876F /* NoneClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoneClass.m; sourceTree = "<group>"; };
 		EBD95262209FF1C70071876F /* JuObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuObject.h; sourceTree = "<group>"; };
-		EBD95263209FF1C70071876F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		EBD95264209FF1C70071876F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EBD95263209FF1C70071876F /* JuPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPerson.h; sourceTree = "<group>"; };
+		EBD95264209FF1C70071876F /* JuPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPerson.m; sourceTree = "<group>"; };
 		EBD95265209FF1C70071876F /* NoneClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoneClass.h; sourceTree = "<group>"; };
 		EBD9526A209FF2430071876F /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
 		EBD9526B209FF2430071876F /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
@@ -187,8 +187,8 @@
 				EB25B55B20A03BED00FFC15B /* JuObject+Cate.m */,
 				EBD95265209FF1C70071876F /* NoneClass.h */,
 				EBD95261209FF1C70071876F /* NoneClass.m */,
-				EBD95263209FF1C70071876F /* Person.h */,
-				EBD95264209FF1C70071876F /* Person.m */,
+				EBD95263209FF1C70071876F /* JuPerson.h */,
+				EBD95264209FF1C70071876F /* JuPerson.m */,
 			);
 			path = JuRunTime;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 				EBD9525C209FF0E50071876F /* JuBlock.m in Sources */,
 				EBD95256209FEF260071876F /* JuThread.m in Sources */,
 				EBD95267209FF1C70071876F /* NoneClass.m in Sources */,
-				EBD95268209FF1C70071876F /* Person.m in Sources */,
+				EBD95268209FF1C70071876F /* JuPerson.m in Sources */,
 				EBD9524D209FEDDD0071876F /* JuOpetation.m in Sources */,
 				EB25B55820A0366700FFC15B /* JuSubLoad.m in Sources */,
 				EBD95253209FEF100071876F /* JuRunLoop.m in Sources */,
