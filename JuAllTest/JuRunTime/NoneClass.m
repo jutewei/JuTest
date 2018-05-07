@@ -9,8 +9,7 @@
 #import "NoneClass.h"
 #import <objc/runtime.h>
 @implementation NoneClass
-+(void)load
-{
++(void)load{
     NSLog(@"NoneClass1 _cmd: %@", NSStringFromSelector(_cmd));
 }
 + (void)initialize{

@@ -9,6 +9,9 @@
 #import "JuObject.h"
 #import "NoneClass.h"
 #import "Person.h"
+#import "JuSubSubLoad.h"
+#import "JuSubLoad.h"
+
 @implementation JuObject
 
 -(instancetype)init{
@@ -16,6 +19,9 @@
     if (self) {
         id p = [[Person alloc] init];
         [p appendString:@"哈哈哈哈"];
+
+        JuSubLoad *load =[[JuSubLoad alloc]init];
+        JuSubSubLoad *load1 =[[JuSubSubLoad alloc]init];
     }
     return self;
 }
