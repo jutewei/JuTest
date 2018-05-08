@@ -28,6 +28,7 @@
     return self;
 }
 -(void)juStart{
+    id object = [[[self class] alloc]init];
     JuSubLoad *load =[[JuSubLoad alloc]init];
     JuSubSubLoad *load1 =[[JuSubSubLoad alloc]init];
 }

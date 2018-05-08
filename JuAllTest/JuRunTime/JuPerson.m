@@ -95,9 +95,6 @@ void dynamicAdditionMethodIMP(id self, SEL _cmd, id name) {
 
 }
 
-
-
-
 // 完整的消息转发
 - (void)travel:(NSString*)city{
     NSLog(@"Teacher travel：%@", city);
