@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0EA63120A1397800E6A137 /* JuEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EA63020A1397800E6A137 /* JuEnum.m */; };
 		EB25B55720A0366700FFC15B /* JuLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55420A0366700FFC15B /* JuLoad.m */; };
 		EB25B55820A0366700FFC15B /* JuSubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55520A0366700FFC15B /* JuSubLoad.m */; };
 		EB25B55920A0366700FFC15B /* JuSubSubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55620A0366700FFC15B /* JuSubSubLoad.m */; };
@@ -33,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB0EA62F20A1397800E6A137 /* JuEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuEnum.h; sourceTree = "<group>"; };
+		EB0EA63020A1397800E6A137 /* JuEnum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuEnum.m; sourceTree = "<group>"; };
 		EB25B55120A0366700FFC15B /* JuLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuLoad.h; sourceTree = "<group>"; };
 		EB25B55220A0366700FFC15B /* JuSubSubLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuSubSubLoad.h; sourceTree = "<group>"; };
 		EB25B55320A0366700FFC15B /* JuSubLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuSubLoad.h; sourceTree = "<group>"; };
@@ -90,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB0EA62E20A1396800E6A137 /* JuENUM */ = {
+			isa = PBXGroup;
+			children = (
+				EB0EA62F20A1397800E6A137 /* JuEnum.h */,
+				EB0EA63020A1397800E6A137 /* JuEnum.m */,
+			);
+			path = JuENUM;
+			sourceTree = "<group>";
+		};
 		EB25B55020A0366700FFC15B /* JuLoad */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +134,7 @@
 		EBD9522E209FEB5A0071876F /* JuAllTest */ = {
 			isa = PBXGroup;
 			children = (
+				EB0EA62E20A1396800E6A137 /* JuENUM */,
 				EBD95269209FF23B0071876F /* JuEncryption */,
 				EBD95245209FEBD80071876F /* JuBlock */,
 				EBD95246209FEBD80071876F /* JuRunLoop */,
@@ -293,6 +306,7 @@
 				EBD9524D209FEDDD0071876F /* JuOpetation.m in Sources */,
 				EB25B55820A0366700FFC15B /* JuSubLoad.m in Sources */,
 				EBD95253209FEF100071876F /* JuRunLoop.m in Sources */,
+				EB0EA63120A1397800E6A137 /* JuEnum.m in Sources */,
 				EBD95231209FEB5A0071876F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

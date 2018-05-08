@@ -22,6 +22,8 @@
 
     subLod=[[JuObject alloc]init];
     subLod.sh_subLoda=[[JuSubSubLoad alloc]init];
+    UIButton *btn;
+   
     // Do any additional setup after loading the view.
 }
 

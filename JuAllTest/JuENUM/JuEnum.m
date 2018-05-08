@@ -8,6 +8,14 @@
 
 #import "JuEnum.h"
 
-@implementation JuEnum
 
+@implementation JuEnum
+-(void)juStartEnum{
+    enum JuCEnumType JuCEnumType;
+    char *buf="ABCDEFG";
+//    char juCar="1";
+//    char juSing='A';
+    JuStudent juStu ={"qwertyuiopasdfghjkl",2,3};
+    NSLog(@"结构体%s",juStu.name);
+}
 @end

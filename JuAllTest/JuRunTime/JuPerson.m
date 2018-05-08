@@ -70,28 +70,28 @@ void dynamicAdditionMethodIMP(id self, SEL _cmd, id name) {
 }
 
 - (void)forwardInvocation:(NSInvocation *)anInvocation{
-//    SEL sel = @selector(travel:);
-//    NSMethodSignature *signature = [NSMethodSignature signatureWithObjCTypes:"v@:@"];
-//    anInvocation = [NSInvocation invocationWithMethodSignature:signature];
-//    [anInvocation setTarget:self];
-//    [anInvocation setSelector:@selector(travel:)];
-//    NSString *city = @"北京";
-//    // 消息的第一个参数是self，第二个参数是选择子，所以"北京"是第三个参数
-//    [anInvocation setArgument:&city atIndex:2];
-//    if ([self respondsToSelector:sel]) {
-//        [anInvocation invokeWithTarget:self];
-//    } else {
-//        [super forwardInvocation:anInvocation];
-//    }
+    SEL sel = @selector(travel:);
+    NSMethodSignature *signature = [NSMethodSignature signatureWithObjCTypes:"v@:@"];
+    anInvocation = [NSInvocation invocationWithMethodSignature:signature];
+    [anInvocation setTarget:self];
+    [anInvocation setSelector:@selector(travel:)];
+    NSString *city = @"北京";
+    // 消息的第一个参数是self，第二个参数是选择子，所以"北京"是第三个参数
+    [anInvocation setArgument:&city atIndex:2];
+    if ([self respondsToSelector:sel]) {
+        [anInvocation invokeWithTarget:self];
+    } else {
+        [super forwardInvocation:anInvocation];
+    }
     // 从继承树中查找
 //
 //或者
-    SEL sel = anInvocation.selector;
-    if([self respondsToSelector:sel]) {
-        [anInvocation invokeWithTarget:self];
-    } else {
-        [self doesNotRecognizeSelector:sel];
-    }
+//    SEL sel = anInvocation.selector;
+//    if([self respondsToSelector:sel]) {
+//        [anInvocation invokeWithTarget:self];
+//    } else {
+//        [self doesNotRecognizeSelector:sel];
+//    }
 
 }
 

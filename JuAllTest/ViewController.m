@@ -10,6 +10,7 @@
 #import "JuObject.h"
 #import "JuThread.h"
 #import "JuRunLoop.h"
+#import "JuEnum.h"
 #import "NextViewController.h"
 @interface ViewController ()
 @property (nonatomic,strong)JuRunLoop *ju_loop;
@@ -24,6 +25,7 @@
     [self juRunTimeMsg];
     [self juThread];
     [self juLoop];
+    [self juEmun];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -38,6 +40,10 @@
 - (IBAction)juNext:(id)sender {
     NextViewController *next=[[NextViewController alloc]init];
     [self.navigationController pushViewController:next animated:YES];
+}
+-(void)juEmun{
+    JuEnum *juEnum=[[JuEnum alloc]init];
+    [juEnum juStartEnum];
 }
 -(void)juThread{
     JuGCD *gcd=[[JuGCD alloc]init];
