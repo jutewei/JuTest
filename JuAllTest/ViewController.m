@@ -12,6 +12,7 @@
 #import "JuRunLoop.h"
 #import "JuEnum.h"
 #import "NextViewController.h"
+#import "JuAllTest-Swift.h"
 @interface ViewController ()
 @property (nonatomic,strong)JuRunLoop *ju_loop;
 @end
@@ -21,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    runTime消息转发
-
+    JuSwift *objSwift=[[JuSwift alloc]init];
     [self juRunTimeMsg];
     [self juThread];
     [self juLoop];
