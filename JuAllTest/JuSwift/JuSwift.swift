@@ -7,13 +7,12 @@
 //
 
 import UIKit
+import JuSwiftFrame
 
 class JuSwift: NSObject {
-    func juTest() {
-        let juDown = JuCountDown()
-        juDown.juSetEnd(nil) { (Any) in
 
-        }
+    func juTest(name : NSString) {
+        let juDown = JuCountDown()
 
     }
 }

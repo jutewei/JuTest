@@ -32,7 +32,35 @@
 		EBD9526C209FF2430071876F /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9526A209FF2430071876F /* NSData+AES.m */; };
 		EBD9526F209FF2D50071876F /* JuEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9526E209FF2D50071876F /* JuEncryption.m */; };
 		EBF3A1EA20A2D7190014D831 /* JuSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF3A1E920A2D7190014D831 /* JuSwift.swift */; };
+		EBFC8F8420A411A5009A418B /* JuSwiftFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFC8F8220A411A5009A418B /* JuSwiftFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBFC8F8720A411A5009A418B /* JuSwiftFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFC8F8020A411A5009A418B /* JuSwiftFrame.framework */; };
+		EBFC8F8820A411A5009A418B /* JuSwiftFrame.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBFC8F8020A411A5009A418B /* JuSwiftFrame.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EBFC8F8E20A411C2009A418B /* JuFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFC8F8D20A411C2009A418B /* JuFirst.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBFC8F8520A411A5009A418B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD95224209FEB5A0071876F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBFC8F7F20A411A5009A418B;
+			remoteInfo = JuSwiftFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EBFC8F8C20A411A5009A418B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EBFC8F8820A411A5009A418B /* JuSwiftFrame.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EB0EA62F20A1397800E6A137 /* JuEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuEnum.h; sourceTree = "<group>"; };
@@ -83,10 +111,22 @@
 		EBD9526E209FF2D50071876F /* JuEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuEncryption.m; sourceTree = "<group>"; };
 		EBF3A1E820A2D7180014D831 /* JuAllTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuAllTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		EBF3A1E920A2D7190014D831 /* JuSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuSwift.swift; sourceTree = "<group>"; };
+		EBFC8F8020A411A5009A418B /* JuSwiftFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JuSwiftFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFC8F8220A411A5009A418B /* JuSwiftFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuSwiftFrame.h; sourceTree = "<group>"; };
+		EBFC8F8320A411A5009A418B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFC8F8D20A411C2009A418B /* JuFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuFirst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EBD95229209FEB5A0071876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFC8F8720A411A5009A418B /* JuSwiftFrame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFC8F7C20A411A5009A418B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				EBD9522E209FEB5A0071876F /* JuAllTest */,
+				EBFC8F8120A411A5009A418B /* JuSwiftFrame */,
 				EBD9522D209FEB5A0071876F /* Products */,
+				EBF3A1FD20A2E8590014D831 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				EBD9522C209FEB5A0071876F /* JuAllTest.app */,
+				EBFC8F8020A411A5009A418B /* JuSwiftFrame.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,7 +273,35 @@
 			path = JuSwift;
 			sourceTree = "<group>";
 		};
+		EBF3A1FD20A2E8590014D831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBFC8F8120A411A5009A418B /* JuSwiftFrame */ = {
+			isa = PBXGroup;
+			children = (
+				EBFC8F8220A411A5009A418B /* JuSwiftFrame.h */,
+				EBFC8F8D20A411C2009A418B /* JuFirst.swift */,
+				EBFC8F8320A411A5009A418B /* Info.plist */,
+			);
+			path = JuSwiftFrame;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EBFC8F7D20A411A5009A418B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFC8F8420A411A5009A418B /* JuSwiftFrame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		EBD9522B209FEB5A0071876F /* JuAllTest */ = {
@@ -240,15 +311,35 @@
 				EBD95228209FEB5A0071876F /* Sources */,
 				EBD95229209FEB5A0071876F /* Frameworks */,
 				EBD9522A209FEB5A0071876F /* Resources */,
+				EBFC8F8C20A411A5009A418B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EBFC8F8620A411A5009A418B /* PBXTargetDependency */,
 			);
 			name = JuAllTest;
 			productName = JuAllTest;
 			productReference = EBD9522C209FEB5A0071876F /* JuAllTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		EBFC8F7F20A411A5009A418B /* JuSwiftFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFC8F8920A411A5009A418B /* Build configuration list for PBXNativeTarget "JuSwiftFrame" */;
+			buildPhases = (
+				EBFC8F7B20A411A5009A418B /* Sources */,
+				EBFC8F7C20A411A5009A418B /* Frameworks */,
+				EBFC8F7D20A411A5009A418B /* Headers */,
+				EBFC8F7E20A411A5009A418B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuSwiftFrame;
+			productName = JuSwiftFrame;
+			productReference = EBFC8F8020A411A5009A418B /* JuSwiftFrame.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -256,10 +347,15 @@
 		EBD95224209FEB5A0071876F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Juvid;
 				TargetAttributes = {
 					EBD9522B209FEB5A0071876F = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					EBFC8F7F20A411A5009A418B = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
 					};
@@ -279,6 +375,7 @@
 			projectRoot = "";
 			targets = (
 				EBD9522B209FEB5A0071876F /* JuAllTest */,
+				EBFC8F7F20A411A5009A418B /* JuSwiftFrame */,
 			);
 		};
 /* End PBXProject section */
@@ -291,6 +388,13 @@
 				EBD9523C209FEB5C0071876F /* LaunchScreen.storyboard in Resources */,
 				EBD95239209FEB5C0071876F /* Assets.xcassets in Resources */,
 				EBD95237209FEB5A0071876F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFC8F7E20A411A5009A418B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +430,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBFC8F7B20A411A5009A418B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFC8F8E20A411C2009A418B /* JuFirst.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBFC8F8620A411A5009A418B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBFC8F7F20A411A5009A418B /* JuSwiftFrame */;
+			targetProxy = EBFC8F8520A411A5009A418B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EBD95235209FEB5A0071876F /* Main.storyboard */ = {
@@ -461,14 +581,17 @@
 		EBD95243209FEB5C0071876F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/JuAllTest/JuLib/**";
 				INFOPLIST_FILE = JuAllTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/JuAllTest/JuLib";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aifubao.JuAllTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "JuAllTest/JuSwift/JuAllTest-Bridging-Header.h";
@@ -481,19 +604,82 @@
 		EBD95244209FEB5C0071876F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/JuAllTest/JuLib/**";
 				INFOPLIST_FILE = JuAllTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/JuAllTest/JuLib";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aifubao.JuAllTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "JuAllTest/JuSwift/JuAllTest-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBFC8F8A20A411A5009A418B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JuSwiftFrame/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifubao.JuSwiftFrame;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBFC8F8B20A411A5009A418B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JuSwiftFrame/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifubao.JuSwiftFrame;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -514,6 +700,15 @@
 			buildConfigurations = (
 				EBD95243209FEB5C0071876F /* Debug */,
 				EBD95244209FEB5C0071876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFC8F8920A411A5009A418B /* Build configuration list for PBXNativeTarget "JuSwiftFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFC8F8A20A411A5009A418B /* Debug */,
+				EBFC8F8B20A411A5009A418B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
