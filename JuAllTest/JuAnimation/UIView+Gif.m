@@ -79,9 +79,11 @@
 //              animation.fillMode = kCAFillModeBoth;
             //设置播放总时长
             animation.duration = totalTime;
+            animation.removedOnCompletion = NO;
             if (repeatCount==1) {
-                animation.removedOnCompletion = NO;
                 animation.fillMode = kCAFillModeForwards;
+            }else{
+                animation.fillMode = kCAFillModeBoth;
             }
             [weakSelf juGetFrame:CGSizeMake(widths.firstObject.floatValue, heights.firstObject.floatValue) withAinmation:animation];
         }
@@ -116,4 +118,13 @@
     //Layer层添加
     [self.layer addSublayer:layer];
 }
+
+-(void)juDealloc{
+    for (CALayer *layer in self.layer.sublayers) {
+        [layer removeAllAnimations];
+        layer.contents=nil;
+        [layer removeFromSuperlayer];
+    }
+}
+
 @end

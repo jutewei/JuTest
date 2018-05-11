@@ -11,4 +11,5 @@
 @interface UIView (Gif)<CAAnimationDelegate>
 -(void)juSetGifImage:(NSString *)imageName;
 -(void)juSetGifImage:(NSString *)imageName repeatCount:(NSInteger)repeatCount;
+-(void)juDealloc;
 @end

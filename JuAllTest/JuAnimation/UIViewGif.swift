@@ -42,7 +42,7 @@ extension UIView:CAAnimationDelegate{
 
 
     }
-    func getGifImages(name :String ,returnData:dataBlock)  {
+   private func getGifImages(name :String ,returnData:dataBlock)  {
         let path = Bundle.main.path(forResource: name, ofType: "gif")
         let data = NSData.init(contentsOfFile: path ?? "")
         if data != nil {
@@ -83,7 +83,7 @@ extension UIView:CAAnimationDelegate{
     }
 
 
-    func juGetFrame(size : CGSize , animation:CAKeyframeAnimation){
+    private   func juGetFrame(size : CGSize , animation:CAKeyframeAnimation){
         var frame = self.bounds
         if self.contentMode != UIViewContentMode.scaleToFill {
             let width = size.width;

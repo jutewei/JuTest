@@ -12,6 +12,7 @@
 #import "UIImage+Gif.h"
 @interface NextViewController (){
     JuObject *subLod;
+    UIImageView *imageView;
 }
 
 @end
@@ -24,18 +25,29 @@
 
     subLod=[[JuObject alloc]init];
     subLod.sh_subLoda=[[JuSubSubLoad alloc]init];
-    UIButton *btn;
 
 
-    UIImageView *view=[[UIImageView alloc]initWithFrame:CGRectMake(50, 64, 250, 250)];
+    imageView=[[UIImageView alloc]initWithFrame:CGRectMake(50, 64, 250, 250)];
 //    view.image=[UIImage juGetGifWithName:@"123456"];
-    [self.view addSubview:view];
-    view.contentMode=UIViewContentModeScaleAspectFit;
+    [self.view addSubview:imageView];
+    imageView.contentMode=UIViewContentModeScaleAspectFit;
 //    view. ju
-    [view juSetGifImage:@"123456"];
+    [imageView juSetGifImage:@"123456"];
+
+
+    UIButton *btn=[[UIButton alloc]initWithFrame:CGRectMake(100, 300, 100, 50)];
+    [btn addTarget:self action:@selector(JuGotoNexe) forControlEvents:UIControlEventTouchUpInside];
+    btn.backgroundColor=[UIColor redColor];
+    [self.view addSubview:btn];
     // Do any additional setup after loading the view.
 }
-
+-(void)JuGotoNexe{
+    NextViewController *next=[[NextViewController alloc]init];
+    [self.navigationController pushViewController:next animated:YES];
+}
+-(void)dealloc{
+    [imageView juDealloc];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
