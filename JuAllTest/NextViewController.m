@@ -8,6 +8,8 @@
 
 #import "NextViewController.h"
 #import "JuObject+Cate.h"
+#import "JuAllTest-Swift.h"
+//#import "UIImage+Gif.h"
 @interface NextViewController (){
     JuObject *subLod;
 }
@@ -23,7 +25,14 @@
     subLod=[[JuObject alloc]init];
     subLod.sh_subLoda=[[JuSubSubLoad alloc]init];
     UIButton *btn;
-   
+
+
+    UIImageView *view=[[UIImageView alloc]initWithFrame:CGRectMake(50, 64, 250, 250)];
+//    view.image=[UIImage juGetGifWithName:@"123456"];
+    [self.view addSubview:view];
+    view.contentMode=UIViewContentModeScaleAspectFit;
+//    view. ju
+//    [view juSetGifImage:@"123456"];
     // Do any additional setup after loading the view.
 }
 

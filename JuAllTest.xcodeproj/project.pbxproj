@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		EB0EA63120A1397800E6A137 /* JuEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EA63020A1397800E6A137 /* JuEnum.m */; };
+		EB1F139B20A5319100C8DF6C /* 123456.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB1F139A20A5319100C8DF6C /* 123456.gif */; };
+		EB1F13AA20A5696400C8DF6C /* UIImage+Gif.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1F13A720A5696400C8DF6C /* UIImage+Gif.m */; };
+		EB1F13AB20A5696400C8DF6C /* UIView+Gif.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1F13A820A5696400C8DF6C /* UIView+Gif.m */; };
+		EB1F13AD20A56A0600C8DF6C /* UIViewGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1F13AC20A56A0600C8DF6C /* UIViewGif.swift */; };
+		EB1F13B020A5887200C8DF6C /* SNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1F13AF20A5887200C8DF6C /* SNextViewController.swift */; };
+		EB1F13B320A588F100C8DF6C /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1F13B120A588F100C8DF6C /* NextViewController.m */; };
 		EB25B55720A0366700FFC15B /* JuLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55420A0366700FFC15B /* JuLoad.m */; };
 		EB25B55820A0366700FFC15B /* JuSubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55520A0366700FFC15B /* JuSubLoad.m */; };
 		EB25B55920A0366700FFC15B /* JuSubSubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55620A0366700FFC15B /* JuSubSubLoad.m */; };
 		EB25B55C20A03BED00FFC15B /* JuObject+Cate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55B20A03BED00FFC15B /* JuObject+Cate.m */; };
-		EB25B55F20A03D2400FFC15B /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55E20A03D2400FFC15B /* NextViewController.m */; };
 		EBD95231209FEB5A0071876F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95230209FEB5A0071876F /* AppDelegate.m */; };
 		EBD95234209FEB5A0071876F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95233209FEB5A0071876F /* ViewController.m */; };
 		EBD95237209FEB5A0071876F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD95235209FEB5A0071876F /* Main.storyboard */; };
@@ -65,6 +70,15 @@
 /* Begin PBXFileReference section */
 		EB0EA62F20A1397800E6A137 /* JuEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuEnum.h; sourceTree = "<group>"; };
 		EB0EA63020A1397800E6A137 /* JuEnum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuEnum.m; sourceTree = "<group>"; };
+		EB1F139A20A5319100C8DF6C /* 123456.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 123456.gif; sourceTree = "<group>"; };
+		EB1F13A620A5696400C8DF6C /* UIView+Gif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gif.h"; sourceTree = "<group>"; };
+		EB1F13A720A5696400C8DF6C /* UIImage+Gif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gif.m"; sourceTree = "<group>"; };
+		EB1F13A820A5696400C8DF6C /* UIView+Gif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gif.m"; sourceTree = "<group>"; };
+		EB1F13A920A5696400C8DF6C /* UIImage+Gif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gif.h"; sourceTree = "<group>"; };
+		EB1F13AC20A56A0600C8DF6C /* UIViewGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGif.swift; sourceTree = "<group>"; };
+		EB1F13AF20A5887200C8DF6C /* SNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNextViewController.swift; sourceTree = "<group>"; };
+		EB1F13B120A588F100C8DF6C /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		EB1F13B220A588F100C8DF6C /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		EB25B55120A0366700FFC15B /* JuLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuLoad.h; sourceTree = "<group>"; };
 		EB25B55220A0366700FFC15B /* JuSubSubLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuSubSubLoad.h; sourceTree = "<group>"; };
 		EB25B55320A0366700FFC15B /* JuSubLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuSubLoad.h; sourceTree = "<group>"; };
@@ -73,8 +87,6 @@
 		EB25B55620A0366700FFC15B /* JuSubSubLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuSubSubLoad.m; sourceTree = "<group>"; };
 		EB25B55A20A03BED00FFC15B /* JuObject+Cate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuObject+Cate.h"; sourceTree = "<group>"; };
 		EB25B55B20A03BED00FFC15B /* JuObject+Cate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JuObject+Cate.m"; sourceTree = "<group>"; };
-		EB25B55D20A03D2400FFC15B /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
-		EB25B55E20A03D2400FFC15B /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		EBD9522C209FEB5A0071876F /* JuAllTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuAllTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD9522F209FEB5A0071876F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBD95230209FEB5A0071876F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -145,6 +157,18 @@
 			path = JuENUM;
 			sourceTree = "<group>";
 		};
+		EB1F13A520A5696400C8DF6C /* JuAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EB1F13A920A5696400C8DF6C /* UIImage+Gif.h */,
+				EB1F13A720A5696400C8DF6C /* UIImage+Gif.m */,
+				EB1F13A620A5696400C8DF6C /* UIView+Gif.h */,
+				EB1F13A820A5696400C8DF6C /* UIView+Gif.m */,
+				EB1F13AC20A56A0600C8DF6C /* UIViewGif.swift */,
+			);
+			path = JuAnimation;
+			sourceTree = "<group>";
+		};
 		EB25B55020A0366700FFC15B /* JuLoad */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +204,7 @@
 		EBD9522E209FEB5A0071876F /* JuAllTest */ = {
 			isa = PBXGroup;
 			children = (
+				EB1F13A520A5696400C8DF6C /* JuAnimation */,
 				EB0EA62E20A1396800E6A137 /* JuENUM */,
 				EBD95269209FF23B0071876F /* JuEncryption */,
 				EBD95245209FEBD80071876F /* JuBlock */,
@@ -191,8 +216,10 @@
 				EBD95230209FEB5A0071876F /* AppDelegate.m */,
 				EBD95232209FEB5A0071876F /* ViewController.h */,
 				EBD95233209FEB5A0071876F /* ViewController.m */,
-				EB25B55D20A03D2400FFC15B /* NextViewController.h */,
-				EB25B55E20A03D2400FFC15B /* NextViewController.m */,
+				EB1F13B220A588F100C8DF6C /* NextViewController.h */,
+				EB1F13B120A588F100C8DF6C /* NextViewController.m */,
+				EB1F13AF20A5887200C8DF6C /* SNextViewController.swift */,
+				EB1F139A20A5319100C8DF6C /* 123456.gif */,
 				EBD95235209FEB5A0071876F /* Main.storyboard */,
 				EBD95238209FEB5C0071876F /* Assets.xcassets */,
 				EBD9523A209FEB5C0071876F /* LaunchScreen.storyboard */,
@@ -385,6 +412,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB1F139B20A5319100C8DF6C /* 123456.gif in Resources */,
 				EBD9523C209FEB5C0071876F /* LaunchScreen.storyboard in Resources */,
 				EBD95239209FEB5C0071876F /* Assets.xcassets in Resources */,
 				EBD95237209FEB5A0071876F /* Main.storyboard in Resources */,
@@ -410,7 +438,6 @@
 				EB25B55720A0366700FFC15B /* JuLoad.m in Sources */,
 				EBD95234209FEB5A0071876F /* ViewController.m in Sources */,
 				EBD9526F209FF2D50071876F /* JuEncryption.m in Sources */,
-				EB25B55F20A03D2400FFC15B /* NextViewController.m in Sources */,
 				EBD95259209FEFE10071876F /* JuTimerLoop.m in Sources */,
 				EB25B55920A0366700FFC15B /* JuSubSubLoad.m in Sources */,
 				EBD95266209FF1C70071876F /* JuObject.m in Sources */,
@@ -418,10 +445,15 @@
 				EB25B55C20A03BED00FFC15B /* JuObject+Cate.m in Sources */,
 				EBD9525F209FF19A0071876F /* JuCountDown.m in Sources */,
 				EBD9525C209FF0E50071876F /* JuBlock.m in Sources */,
+				EB1F13AB20A5696400C8DF6C /* UIView+Gif.m in Sources */,
+				EB1F13AD20A56A0600C8DF6C /* UIViewGif.swift in Sources */,
 				EBD95256209FEF260071876F /* JuThread.m in Sources */,
 				EBF3A1EA20A2D7190014D831 /* JuSwift.swift in Sources */,
 				EBD95267209FF1C70071876F /* NoneClass.m in Sources */,
+				EB1F13B320A588F100C8DF6C /* NextViewController.m in Sources */,
 				EBD95268209FF1C70071876F /* JuPerson.m in Sources */,
+				EB1F13B020A5887200C8DF6C /* SNextViewController.swift in Sources */,
+				EB1F13AA20A5696400C8DF6C /* UIImage+Gif.m in Sources */,
 				EBD9524D209FEDDD0071876F /* JuOpetation.m in Sources */,
 				EB25B55820A0366700FFC15B /* JuSubLoad.m in Sources */,
 				EBD95253209FEF100071876F /* JuRunLoop.m in Sources */,
