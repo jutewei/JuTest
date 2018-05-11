@@ -33,7 +33,9 @@
         [imageArray addObject:(__bridge UIImage *)(image)];
         CGImageRelease(image);
         //获取图片信息
-        NSDictionary * info = (__bridge NSDictionary*)CGImageSourceCopyPropertiesAtIndex(source, i, NULL);
+        CFDictionaryRef dicRef=CGImageSourceCopyPropertiesAtIndex(source, i, NULL);
+        NSDictionary * info = (__bridge NSDictionary*)dicRef;
+        CFRelease(dicRef);
         CGFloat width = [[info objectForKey:(__bridge NSString *)kCGImagePropertyPixelWidth] floatValue];
         CGFloat height = [[info objectForKey:(__bridge NSString *)kCGImagePropertyPixelHeight] floatValue];
         [widthArray addObject:[NSNumber numberWithFloat:width]];

@@ -11,7 +11,7 @@
 #import "JuThread.h"
 #import "JuRunLoop.h"
 #import "JuEnum.h"
-//#import "NextViewController.h"
+#import "NextViewController.h"
 #import "JuAllTest-Swift.h"
 #import <JuSwiftFrame/JuSwiftFrame-Swift.h>
 
@@ -47,7 +47,7 @@
     [myTestObject nonClassMethod:@"你好呀"];
 }
 - (IBAction)juNext:(id)sender {
-    SNextViewController *next=[[SNextViewController alloc]init];
+    NextViewController *next=[[NextViewController alloc]init];
     [self.navigationController pushViewController:next animated:YES];
 }
 -(void)juEmun{

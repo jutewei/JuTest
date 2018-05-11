@@ -9,7 +9,7 @@
 #import "NextViewController.h"
 #import "JuObject+Cate.h"
 #import "JuAllTest-Swift.h"
-//#import "UIImage+Gif.h"
+#import "UIImage+Gif.h"
 @interface NextViewController (){
     JuObject *subLod;
 }
@@ -32,7 +32,7 @@
     [self.view addSubview:view];
     view.contentMode=UIViewContentModeScaleAspectFit;
 //    view. ju
-//    [view juSetGifImage:@"123456"];
+    [view juSetGifImage:@"123456"];
     // Do any additional setup after loading the view.
 }
 

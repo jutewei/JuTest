@@ -46,9 +46,9 @@ extension UIView:CAAnimationDelegate{
         let path = Bundle.main.path(forResource: name, ofType: "gif")
         let data = NSData.init(contentsOfFile: path ?? "")
         if data != nil {
-            let source = CGImageSourceCreateWithData(data!,nil);
+            let source : CGImageSource! = CGImageSourceCreateWithData(data!,nil);
             //获取gif文件中图片的个数
-            let count = CGImageSourceGetCount(source!);
+            let count = CGImageSourceGetCount(source);
             //定义一个变量记录gif播放一轮的时间
             var allTime :Float = 0;
             //存放所有图片
@@ -60,19 +60,23 @@ extension UIView:CAAnimationDelegate{
             var heighs : CGFloat!
             //遍历
             for i in 0...count-1 {
+
                 let image : CGImage! = CGImageSourceCreateImageAtIndex(source!, i, nil);
                 imageArray.append(image)
                 //获取图片信息
-                let info = CGImageSourceCopyPropertiesAtIndex(source!, i, nil) as NSDictionary?
+                let dicRef : CFDictionary? = CGImageSourceCopyPropertiesAtIndex(source!, i, nil)
+                let info = dicRef as NSDictionary?
                 widths = (info![String(kCGImagePropertyPixelWidth)] as? CGFloat)!
                 heighs = (info![String(kCGImagePropertyPixelHeight)] as? CGFloat)!
                 let timeDic = info![String(kCGImagePropertyGIFDictionary)] as? NSDictionary;
                 let time = timeDic![String(kCGImagePropertyGIFDelayTime)] as! NSNumber;
                 allTime += time.floatValue;
                 timeArray.append(time)
+
+
             }
             let size = CGSize.init(width: widths, height: heighs)
-
+    
             returnData(imageArray,timeArray,allTime,size)
         }
 
