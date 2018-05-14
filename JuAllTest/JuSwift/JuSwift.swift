@@ -10,7 +10,7 @@ import UIKit
 import JuSwiftFrame
 
 class JuSwift: NSObject {
-
+    var numString = "1234"
     func juTest(name : NSString) {
         let juDown = JuCountDown()
         var blockA : (Int) ->String = { a in
@@ -20,7 +20,9 @@ class JuSwift: NSObject {
         let block =  testBlock(name: "blokc") { (a) -> String in
             return "block 返回值 \(a)"
         }
-
+        let num : Double? = Double(numString)
+        
+        print(num)
         print(block)
     }
 

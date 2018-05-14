@@ -26,7 +26,9 @@
 //    runTime消息转发
     JuSwift *objSwift=[[JuSwift alloc]init];
     [objSwift juTestWithName:@"hhhh"];
-    
+
+
+
     JuFirst *first=[[JuFirst alloc]init];
 //    NSLog(@"%@",objSwift.juLib);
 //    JuLibOC *module=[[JuLibOC alloc]init];
