@@ -23,7 +23,7 @@ extension UIView:CAAnimationDelegate{
             animation.delegate = self
             var times = Array<NSNumber>.init()
             var currentTime : Float = 0
-            for  i in 0...imageArray.count-1 {
+            for  i in 0..<imageArray.count {
                 times.append( NSNumber.init(value: currentTime/totalTime))
                 let time = timeArray[i].floatValue
                 currentTime += time
@@ -59,10 +59,11 @@ extension UIView:CAAnimationDelegate{
             var widths : CGFloat!
             var heighs : CGFloat!
             //遍历
-            for i in 0...count-1 {
+            for i in 0..<count {
 
-                let image : CGImage! = CGImageSourceCreateImageAtIndex(source!, i, nil);
-                imageArray.append(image)
+                let image : CGImage? = CGImageSourceCreateImageAtIndex(source!, i, nil);
+                if image == nil { continue }
+                imageArray.append(image!)
                 //获取图片信息
                 let dicRef : CFDictionary? = CGImageSourceCopyPropertiesAtIndex(source!, i, nil)
                 let info = dicRef as NSDictionary?
@@ -72,7 +73,6 @@ extension UIView:CAAnimationDelegate{
                 let time = timeDic![String(kCGImagePropertyGIFDelayTime)] as! NSNumber;
                 allTime += time.floatValue;
                 timeArray.append(time)
-
 
             }
             let size = CGSize.init(width: widths, height: heighs)

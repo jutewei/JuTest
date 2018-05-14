@@ -47,7 +47,7 @@
     [myTestObject nonClassMethod:@"你好呀"];
 }
 - (IBAction)juNext:(id)sender {
-    NextViewController *next=[[NextViewController alloc]init];
+    SNextViewController *next=[[SNextViewController alloc]init];
     [self.navigationController pushViewController:next animated:YES];
 }
 -(void)juEmun{

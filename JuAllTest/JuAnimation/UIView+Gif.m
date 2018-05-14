@@ -30,6 +30,9 @@
     //遍历
     for (size_t i=0; i<count; i++) {
         CGImageRef image = CGImageSourceCreateImageAtIndex(source, i, NULL);
+        if (!image) {
+            continue;
+        }
         [imageArray addObject:(__bridge UIImage *)(image)];
         CGImageRelease(image);
         //获取图片信息

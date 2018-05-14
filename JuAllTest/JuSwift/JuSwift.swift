@@ -13,6 +13,20 @@ class JuSwift: NSObject {
 
     func juTest(name : NSString) {
         let juDown = JuCountDown()
+        var blockA : (Int) ->String = { a in
+            return "block"
+        }
+        blockA(1234)
+        let block =  testBlock(name: "blokc") { (a) -> String in
+            return "block 返回值 \(a)"
+        }
 
+        print(block)
+    }
+
+    func testBlock(name:String,Blocks:(Int)->String ) -> String {
+       
+        print(Blocks(1234))
+        return "block函数 \(name)"
     }
 }
