@@ -18,6 +18,7 @@
 		EB25B55820A0366700FFC15B /* JuSubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55520A0366700FFC15B /* JuSubLoad.m */; };
 		EB25B55920A0366700FFC15B /* JuSubSubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55620A0366700FFC15B /* JuSubSubLoad.m */; };
 		EB25B55C20A03BED00FFC15B /* JuObject+Cate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55B20A03BED00FFC15B /* JuObject+Cate.m */; };
+		EBBE9F4320B54F62006C375C /* NSAttributedString+style.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBE9F4220B54F61006C375C /* NSAttributedString+style.m */; };
 		EBD95231209FEB5A0071876F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95230209FEB5A0071876F /* AppDelegate.m */; };
 		EBD95234209FEB5A0071876F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95233209FEB5A0071876F /* ViewController.m */; };
 		EBD95237209FEB5A0071876F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD95235209FEB5A0071876F /* Main.storyboard */; };
@@ -36,11 +37,13 @@
 		EBD95268209FF1C70071876F /* JuPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95264209FF1C70071876F /* JuPerson.m */; };
 		EBD9526C209FF2430071876F /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9526A209FF2430071876F /* NSData+AES.m */; };
 		EBD9526F209FF2D50071876F /* JuEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9526E209FF2D50071876F /* JuEncryption.m */; };
+		EBE385BB20ABDF6E006BE658 /* JuButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE385BA20ABDF6E006BE658 /* JuButtonView.m */; };
 		EBF3A1EA20A2D7190014D831 /* JuSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF3A1E920A2D7190014D831 /* JuSwift.swift */; };
 		EBFC8F8420A411A5009A418B /* JuSwiftFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFC8F8220A411A5009A418B /* JuSwiftFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBFC8F8720A411A5009A418B /* JuSwiftFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFC8F8020A411A5009A418B /* JuSwiftFrame.framework */; };
 		EBFC8F8820A411A5009A418B /* JuSwiftFrame.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBFC8F8020A411A5009A418B /* JuSwiftFrame.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EBFC8F8E20A411C2009A418B /* JuFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFC8F8D20A411C2009A418B /* JuFirst.swift */; };
+		EBFCD7BC20C50E3900B6D192 /* JuCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFCD7BB20C50E3900B6D192 /* JuCornerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,8 @@
 		EB25B55620A0366700FFC15B /* JuSubSubLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuSubSubLoad.m; sourceTree = "<group>"; };
 		EB25B55A20A03BED00FFC15B /* JuObject+Cate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuObject+Cate.h"; sourceTree = "<group>"; };
 		EB25B55B20A03BED00FFC15B /* JuObject+Cate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JuObject+Cate.m"; sourceTree = "<group>"; };
+		EBBE9F4120B54F61006C375C /* NSAttributedString+style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+style.h"; sourceTree = "<group>"; };
+		EBBE9F4220B54F61006C375C /* NSAttributedString+style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+style.m"; sourceTree = "<group>"; };
 		EBD9522C209FEB5A0071876F /* JuAllTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuAllTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD9522F209FEB5A0071876F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBD95230209FEB5A0071876F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,12 +126,16 @@
 		EBD9526B209FF2430071876F /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
 		EBD9526D209FF2D50071876F /* JuEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuEncryption.h; sourceTree = "<group>"; };
 		EBD9526E209FF2D50071876F /* JuEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuEncryption.m; sourceTree = "<group>"; };
+		EBE385B920ABDF6E006BE658 /* JuButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuButtonView.h; sourceTree = "<group>"; };
+		EBE385BA20ABDF6E006BE658 /* JuButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuButtonView.m; sourceTree = "<group>"; };
 		EBF3A1E820A2D7180014D831 /* JuAllTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuAllTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		EBF3A1E920A2D7190014D831 /* JuSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuSwift.swift; sourceTree = "<group>"; };
 		EBFC8F8020A411A5009A418B /* JuSwiftFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JuSwiftFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFC8F8220A411A5009A418B /* JuSwiftFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuSwiftFrame.h; sourceTree = "<group>"; };
 		EBFC8F8320A411A5009A418B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBFC8F8D20A411C2009A418B /* JuFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuFirst.swift; sourceTree = "<group>"; };
+		EBFCD7BA20C50E3900B6D192 /* JuCornerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuCornerView.h; sourceTree = "<group>"; };
+		EBFCD7BB20C50E3900B6D192 /* JuCornerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuCornerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +227,12 @@
 				EBD95233209FEB5A0071876F /* ViewController.m */,
 				EB1F13B220A588F100C8DF6C /* NextViewController.h */,
 				EB1F13B120A588F100C8DF6C /* NextViewController.m */,
+				EBE385B920ABDF6E006BE658 /* JuButtonView.h */,
+				EBE385BA20ABDF6E006BE658 /* JuButtonView.m */,
+				EBFCD7BA20C50E3900B6D192 /* JuCornerView.h */,
+				EBFCD7BB20C50E3900B6D192 /* JuCornerView.m */,
+				EBBE9F4120B54F61006C375C /* NSAttributedString+style.h */,
+				EBBE9F4220B54F61006C375C /* NSAttributedString+style.m */,
 				EB1F13AF20A5887200C8DF6C /* SNextViewController.swift */,
 				EB1F139A20A5319100C8DF6C /* 123456.gif */,
 				EBD95235209FEB5A0071876F /* Main.storyboard */,
@@ -433,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE385BB20ABDF6E006BE658 /* JuButtonView.m in Sources */,
 				EBD9526C209FF2430071876F /* NSData+AES.m in Sources */,
 				EBD9524E209FEDDD0071876F /* JuGCD.m in Sources */,
 				EB25B55720A0366700FFC15B /* JuLoad.m in Sources */,
@@ -441,6 +457,7 @@
 				EBD95259209FEFE10071876F /* JuTimerLoop.m in Sources */,
 				EB25B55920A0366700FFC15B /* JuSubSubLoad.m in Sources */,
 				EBD95266209FF1C70071876F /* JuObject.m in Sources */,
+				EBBE9F4320B54F62006C375C /* NSAttributedString+style.m in Sources */,
 				EBD9523F209FEB5C0071876F /* main.m in Sources */,
 				EB25B55C20A03BED00FFC15B /* JuObject+Cate.m in Sources */,
 				EBD9525F209FF19A0071876F /* JuCountDown.m in Sources */,
@@ -451,6 +468,7 @@
 				EBF3A1EA20A2D7190014D831 /* JuSwift.swift in Sources */,
 				EBD95267209FF1C70071876F /* NoneClass.m in Sources */,
 				EB1F13B320A588F100C8DF6C /* NextViewController.m in Sources */,
+				EBFCD7BC20C50E3900B6D192 /* JuCornerView.m in Sources */,
 				EBD95268209FF1C70071876F /* JuPerson.m in Sources */,
 				EB1F13B020A5887200C8DF6C /* SNextViewController.swift in Sources */,
 				EB1F13AA20A5696400C8DF6C /* UIImage+Gif.m in Sources */,
