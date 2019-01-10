@@ -122,7 +122,13 @@
     }
 
 }
+-(void )juLink:(CGFloat)graphSpace withString:(NSString *)string{
+    if (string.length) {
+        NSRange rang=[self.string rangeOfString:string];
+        [self addAttributes:@{NSLinkAttributeName:string} range:[self.string rangeOfString:string]];
+    }
 
+}
 +(NSMutableAttributedString *)juSetPriceWithString:(NSString *)string withFont:(UIFont *)font{
     if (string) {
         NSMutableAttributedString *attString=[[NSMutableAttributedString alloc]initWithString:string];

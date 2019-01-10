@@ -39,6 +39,8 @@
     [btn addTarget:self action:@selector(JuGotoNexe) forControlEvents:UIControlEventTouchUpInside];
     btn.backgroundColor=[UIColor redColor];
     [self.view addSubview:btn];
+
+   
     // Do any additional setup after loading the view.
 }
 -(void)JuGotoNexe{
@@ -47,6 +49,9 @@
 }
 -(void)dealloc{
     [imageView juDealloc];
+}
+-(BOOL)prefersStatusBarHidden{
+    return YES;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

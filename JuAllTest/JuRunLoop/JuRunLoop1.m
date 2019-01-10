@@ -6,14 +6,14 @@
 //  Copyright © 2018年 Juvid. All rights reserved.
 //
 
-#import "JuRunLoop.h"
+#import "JuRunLoop1.h"
 #import "JuThread.h"
 
-@interface JuRunLoop ()
+@interface JuRunLoop1 ()
 @property (nonatomic,strong)JuThread *subThread;
 @end
 
-@implementation JuRunLoop
+@implementation JuRunLoop1
 
 -(instancetype)init{
     self =[super init];

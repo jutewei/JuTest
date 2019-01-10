@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB03C4CB20F6E7FB00AF23E7 /* JuNetTime.m in Sources */ = {isa = PBXBuildFile; fileRef = EB03C4CA20F6E7FB00AF23E7 /* JuNetTime.m */; };
+		EB06803420CE1D8C003ECE01 /* JuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB06803320CE1D8C003ECE01 /* JuNavigationController.swift */; };
 		EB0EA63120A1397800E6A137 /* JuEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EA63020A1397800E6A137 /* JuEnum.m */; };
+		EB11C44320E36A3000E24680 /* JuLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11C44220E36A3000E24680 /* JuLinkLabel.m */; };
+		EB11C44620E371D500E24680 /* JuTextLinkLable.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11C44520E371D500E24680 /* JuTextLinkLable.m */; };
+		EB11C44920E3761C00E24680 /* JuLinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11C44820E3761C00E24680 /* JuLinkModel.m */; };
+		EB11C44F20E387EB00E24680 /* CJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11C44B20E387EA00E24680 /* CJLabel.m */; };
+		EB11C45020E387EB00E24680 /* NSString+CJString.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11C44C20E387EA00E24680 /* NSString+CJString.m */; };
+		EB11C45320E389CC00E24680 /* NSString+CJString.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11C45120E389CC00E24680 /* NSString+CJString.m */; };
 		EB1F139B20A5319100C8DF6C /* 123456.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB1F139A20A5319100C8DF6C /* 123456.gif */; };
 		EB1F13AA20A5696400C8DF6C /* UIImage+Gif.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1F13A720A5696400C8DF6C /* UIImage+Gif.m */; };
 		EB1F13AB20A5696400C8DF6C /* UIView+Gif.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1F13A820A5696400C8DF6C /* UIView+Gif.m */; };
@@ -18,6 +26,7 @@
 		EB25B55820A0366700FFC15B /* JuSubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55520A0366700FFC15B /* JuSubLoad.m */; };
 		EB25B55920A0366700FFC15B /* JuSubSubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55620A0366700FFC15B /* JuSubSubLoad.m */; };
 		EB25B55C20A03BED00FFC15B /* JuObject+Cate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25B55B20A03BED00FFC15B /* JuObject+Cate.m */; };
+		EB9D3B0020F4BF0D001933B9 /* UIResponder+FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D3AFF20F4BF0D001933B9 /* UIResponder+FirstResponder.m */; };
 		EBBE9F4320B54F62006C375C /* NSAttributedString+style.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBE9F4220B54F61006C375C /* NSAttributedString+style.m */; };
 		EBD95231209FEB5A0071876F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95230209FEB5A0071876F /* AppDelegate.m */; };
 		EBD95234209FEB5A0071876F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD95233209FEB5A0071876F /* ViewController.m */; };
@@ -71,8 +80,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB03C4C920F6E7FB00AF23E7 /* JuNetTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuNetTime.h; sourceTree = "<group>"; };
+		EB03C4CA20F6E7FB00AF23E7 /* JuNetTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuNetTime.m; sourceTree = "<group>"; };
+		EB06803320CE1D8C003ECE01 /* JuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuNavigationController.swift; sourceTree = "<group>"; };
 		EB0EA62F20A1397800E6A137 /* JuEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuEnum.h; sourceTree = "<group>"; };
 		EB0EA63020A1397800E6A137 /* JuEnum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuEnum.m; sourceTree = "<group>"; };
+		EB11C44120E36A2F00E24680 /* JuLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuLinkLabel.h; sourceTree = "<group>"; };
+		EB11C44220E36A3000E24680 /* JuLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuLinkLabel.m; sourceTree = "<group>"; };
+		EB11C44420E371D500E24680 /* JuTextLinkLable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuTextLinkLable.h; sourceTree = "<group>"; };
+		EB11C44520E371D500E24680 /* JuTextLinkLable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuTextLinkLable.m; sourceTree = "<group>"; };
+		EB11C44720E3761C00E24680 /* JuLinkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuLinkModel.h; sourceTree = "<group>"; };
+		EB11C44820E3761C00E24680 /* JuLinkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuLinkModel.m; sourceTree = "<group>"; };
+		EB11C44B20E387EA00E24680 /* CJLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJLabel.m; sourceTree = "<group>"; };
+		EB11C44C20E387EA00E24680 /* NSString+CJString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CJString.m"; sourceTree = "<group>"; };
+		EB11C44D20E387EA00E24680 /* CJLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJLabel.h; sourceTree = "<group>"; };
+		EB11C44E20E387EA00E24680 /* NSString+CJString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CJString.h"; sourceTree = "<group>"; };
+		EB11C45120E389CC00E24680 /* NSString+CJString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CJString.m"; sourceTree = "<group>"; };
+		EB11C45220E389CC00E24680 /* NSString+CJString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CJString.h"; sourceTree = "<group>"; };
 		EB1F139A20A5319100C8DF6C /* 123456.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 123456.gif; sourceTree = "<group>"; };
 		EB1F13A620A5696400C8DF6C /* UIView+Gif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gif.h"; sourceTree = "<group>"; };
 		EB1F13A720A5696400C8DF6C /* UIImage+Gif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gif.m"; sourceTree = "<group>"; };
@@ -90,6 +114,8 @@
 		EB25B55620A0366700FFC15B /* JuSubSubLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuSubSubLoad.m; sourceTree = "<group>"; };
 		EB25B55A20A03BED00FFC15B /* JuObject+Cate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuObject+Cate.h"; sourceTree = "<group>"; };
 		EB25B55B20A03BED00FFC15B /* JuObject+Cate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JuObject+Cate.m"; sourceTree = "<group>"; };
+		EB9D3AFE20F4BF0D001933B9 /* UIResponder+FirstResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+FirstResponder.h"; sourceTree = "<group>"; };
+		EB9D3AFF20F4BF0D001933B9 /* UIResponder+FirstResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+FirstResponder.m"; sourceTree = "<group>"; };
 		EBBE9F4120B54F61006C375C /* NSAttributedString+style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+style.h"; sourceTree = "<group>"; };
 		EBBE9F4220B54F61006C375C /* NSAttributedString+style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+style.m"; sourceTree = "<group>"; };
 		EBD9522C209FEB5A0071876F /* JuAllTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuAllTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +192,17 @@
 			path = JuENUM;
 			sourceTree = "<group>";
 		};
+		EB11C44A20E387EA00E24680 /* CJLabel */ = {
+			isa = PBXGroup;
+			children = (
+				EB11C44D20E387EA00E24680 /* CJLabel.h */,
+				EB11C44B20E387EA00E24680 /* CJLabel.m */,
+				EB11C44E20E387EA00E24680 /* NSString+CJString.h */,
+				EB11C44C20E387EA00E24680 /* NSString+CJString.m */,
+			);
+			path = CJLabel;
+			sourceTree = "<group>";
+		};
 		EB1F13A520A5696400C8DF6C /* JuAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,15 +264,29 @@
 				EBD95233209FEB5A0071876F /* ViewController.m */,
 				EB1F13B220A588F100C8DF6C /* NextViewController.h */,
 				EB1F13B120A588F100C8DF6C /* NextViewController.m */,
+				EB06803320CE1D8C003ECE01 /* JuNavigationController.swift */,
 				EBE385B920ABDF6E006BE658 /* JuButtonView.h */,
 				EBE385BA20ABDF6E006BE658 /* JuButtonView.m */,
 				EBFCD7BA20C50E3900B6D192 /* JuCornerView.h */,
 				EBFCD7BB20C50E3900B6D192 /* JuCornerView.m */,
+				EB11C44120E36A2F00E24680 /* JuLinkLabel.h */,
+				EB11C44220E36A3000E24680 /* JuLinkLabel.m */,
+				EB11C44420E371D500E24680 /* JuTextLinkLable.h */,
+				EB11C44520E371D500E24680 /* JuTextLinkLable.m */,
+				EB11C44720E3761C00E24680 /* JuLinkModel.h */,
+				EB11C44820E3761C00E24680 /* JuLinkModel.m */,
+				EB03C4C920F6E7FB00AF23E7 /* JuNetTime.h */,
+				EB03C4CA20F6E7FB00AF23E7 /* JuNetTime.m */,
 				EBBE9F4120B54F61006C375C /* NSAttributedString+style.h */,
 				EBBE9F4220B54F61006C375C /* NSAttributedString+style.m */,
+				EB11C45220E389CC00E24680 /* NSString+CJString.h */,
+				EB11C45120E389CC00E24680 /* NSString+CJString.m */,
+				EB9D3AFE20F4BF0D001933B9 /* UIResponder+FirstResponder.h */,
+				EB9D3AFF20F4BF0D001933B9 /* UIResponder+FirstResponder.m */,
 				EB1F13AF20A5887200C8DF6C /* SNextViewController.swift */,
 				EB1F139A20A5319100C8DF6C /* 123456.gif */,
 				EBD95235209FEB5A0071876F /* Main.storyboard */,
+				EB11C44A20E387EA00E24680 /* CJLabel */,
 				EBD95238209FEB5C0071876F /* Assets.xcassets */,
 				EBD9523A209FEB5C0071876F /* LaunchScreen.storyboard */,
 				EBD9523D209FEB5C0071876F /* Info.plist */,
@@ -453,29 +504,38 @@
 				EBD9524E209FEDDD0071876F /* JuGCD.m in Sources */,
 				EB25B55720A0366700FFC15B /* JuLoad.m in Sources */,
 				EBD95234209FEB5A0071876F /* ViewController.m in Sources */,
+				EB11C45320E389CC00E24680 /* NSString+CJString.m in Sources */,
 				EBD9526F209FF2D50071876F /* JuEncryption.m in Sources */,
 				EBD95259209FEFE10071876F /* JuTimerLoop.m in Sources */,
 				EB25B55920A0366700FFC15B /* JuSubSubLoad.m in Sources */,
 				EBD95266209FF1C70071876F /* JuObject.m in Sources */,
 				EBBE9F4320B54F62006C375C /* NSAttributedString+style.m in Sources */,
+				EB9D3B0020F4BF0D001933B9 /* UIResponder+FirstResponder.m in Sources */,
 				EBD9523F209FEB5C0071876F /* main.m in Sources */,
 				EB25B55C20A03BED00FFC15B /* JuObject+Cate.m in Sources */,
+				EB11C44320E36A3000E24680 /* JuLinkLabel.m in Sources */,
 				EBD9525F209FF19A0071876F /* JuCountDown.m in Sources */,
 				EBD9525C209FF0E50071876F /* JuBlock.m in Sources */,
 				EB1F13AB20A5696400C8DF6C /* UIView+Gif.m in Sources */,
 				EB1F13AD20A56A0600C8DF6C /* UIViewGif.swift in Sources */,
+				EB11C44F20E387EB00E24680 /* CJLabel.m in Sources */,
 				EBD95256209FEF260071876F /* JuThread.m in Sources */,
+				EB11C45020E387EB00E24680 /* NSString+CJString.m in Sources */,
+				EB11C44920E3761C00E24680 /* JuLinkModel.m in Sources */,
 				EBF3A1EA20A2D7190014D831 /* JuSwift.swift in Sources */,
 				EBD95267209FF1C70071876F /* NoneClass.m in Sources */,
 				EB1F13B320A588F100C8DF6C /* NextViewController.m in Sources */,
 				EBFCD7BC20C50E3900B6D192 /* JuCornerView.m in Sources */,
+				EB03C4CB20F6E7FB00AF23E7 /* JuNetTime.m in Sources */,
 				EBD95268209FF1C70071876F /* JuPerson.m in Sources */,
 				EB1F13B020A5887200C8DF6C /* SNextViewController.swift in Sources */,
 				EB1F13AA20A5696400C8DF6C /* UIImage+Gif.m in Sources */,
+				EB11C44620E371D500E24680 /* JuTextLinkLable.m in Sources */,
 				EBD9524D209FEDDD0071876F /* JuOpetation.m in Sources */,
 				EB25B55820A0366700FFC15B /* JuSubLoad.m in Sources */,
 				EBD95253209FEF100071876F /* JuRunLoop.m in Sources */,
 				EB0EA63120A1397800E6A137 /* JuEnum.m in Sources */,
+				EB06803420CE1D8C003ECE01 /* JuNavigationController.swift in Sources */,
 				EBD95231209FEB5A0071876F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

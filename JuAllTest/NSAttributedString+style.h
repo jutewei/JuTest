@@ -149,4 +149,6 @@
  */
 +(NSMutableAttributedString *)juSetPriceWithString:(NSString *)string withFont:(UIFont *)font;
 
+-(void )juLink:(CGFloat)graphSpace withString:(NSString *)string;
+
 @end
